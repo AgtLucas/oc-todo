@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection headerTitle="Section-1" id="rCl-KX-1TZ">
+                            <tableViewSection headerTitle="List" id="rCl-KX-1TZ">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Psa-1E-SCc" style="IBUITableViewCellStyleDefault" id="zXf-nt-KQj">
                                         <autoresizingMask key="autoresizingMask"/>
