@@ -13,6 +13,7 @@
 		DC40388F1A6DD9250011A2F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC40388E1A6DD9250011A2F9 /* Images.xcassets */; };
 		DC4038921A6DD9250011A2F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4038901A6DD9250011A2F9 /* LaunchScreen.xib */; };
 		DC40389E1A6DD9250011A2F9 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC40389D1A6DD9250011A2F9 /* ToDoListTests.m */; };
+		DC8636591A71D97A006DE14B /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8636581A71D97A006DE14B /* AddToDoItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 		DC4038971A6DD9250011A2F9 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC40389C1A6DD9250011A2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC40389D1A6DD9250011A2F9 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		DC8636571A71D97A006DE14B /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
+		DC8636581A71D97A006DE14B /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				DC40388E1A6DD9250011A2F9 /* Images.xcassets */,
 				DC4038901A6DD9250011A2F9 /* LaunchScreen.xib */,
 				DC4038811A6DD9250011A2F9 /* Supporting Files */,
+				DC8636571A71D97A006DE14B /* AddToDoItemViewController.h */,
+				DC8636581A71D97A006DE14B /* AddToDoItemViewController.m */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 			files = (
 				DC4038871A6DD9250011A2F9 /* AppDelegate.m in Sources */,
 				DC4038841A6DD9250011A2F9 /* main.m in Sources */,
+				DC8636591A71D97A006DE14B /* AddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
