@@ -259,6 +259,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item" id="IGx-vC-GQo">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="d6d-mM-Ks4"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="cbU-u9-3aY"/>
                     </navigationItem>
                 </viewController>
