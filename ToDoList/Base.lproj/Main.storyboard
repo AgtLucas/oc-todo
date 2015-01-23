@@ -223,7 +223,7 @@
                     <navigationItem key="navigationItem" title="To-Do List" id="Ck2-SP-Bti">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="9Mc-WI-fLN">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="HlX-KO-fhA"/>
+                                <segue destination="BYZ-38-t0r" kind="presentation" id="HlX-KO-fhA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
