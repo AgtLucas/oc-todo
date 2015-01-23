@@ -221,7 +221,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="To-Do List" id="Ck2-SP-Bti">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="9Mc-WI-fLN"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="9Mc-WI-fLN">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="HlX-KO-fhA"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m4U-b9-qXG" userLabel="First Responder" sceneMemberID="firstResponder"/>
