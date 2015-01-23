@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--To-Do List-->
         <scene sceneID="GTX-NC-kJl">
             <objects>
                 <tableViewController id="7PF-2b-zcm" sceneMemberID="viewController">
@@ -220,7 +220,7 @@
                             <outlet property="delegate" destination="7PF-2b-zcm" id="txI-a3-GYm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Ck2-SP-Bti"/>
+                    <navigationItem key="navigationItem" title="To-Do List" id="Ck2-SP-Bti"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m4U-b9-qXG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
