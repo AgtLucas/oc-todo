@@ -7,6 +7,7 @@
 //
 
 #import "ToDoListTableViewController.h"
+#import "ToDoItem.h"
 
 @interface ToDoListTableViewController ()
 
@@ -32,9 +33,15 @@
 }
 
 - (void)loadInitData {
-    ToDoIem *item1 = [[ToDoItem alloc] init];
+    ToDoItem *item1 = [[ToDoItem alloc] init];
     item1.itemName = @"Buy milk";
-    [self.toDoItems]
+    [self.toDoItems addObject:item1];
+    ToDoItem *item2 = [[ToDoItem alloc] init];
+    item2.itemName = @"Buy eggs";
+    [self.toDoItems addObject:item2];
+    ToDoItem *item3 = [[ToDoItem alloc] init];
+    item3.itemName = @"Read a book";
+    [self.toDoItems addObject:item3];
 }
 
 #pragma mark - Table view data source
