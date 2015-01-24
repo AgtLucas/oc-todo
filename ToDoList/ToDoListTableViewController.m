@@ -10,6 +10,8 @@
 
 @interface ToDoListTableViewController ()
 
+@property NSMutableArray *toDoItems;
+
 @end
 
 @implementation ToDoListTableViewController
